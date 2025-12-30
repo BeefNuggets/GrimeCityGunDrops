@@ -1,0 +1,141 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #050507;
+  color: #ff2a2a;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  padding: 20px;
+  background: #0b0b10;
+  border-right: 1px solid rgba(255,42,42,.25);
+}
+
+.navbtn {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255,42,42,.15);
+  border: 2px solid rgba(255,42,42,.8);
+  color: #ff2a2a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbtn:hover {
+  background: rgba(255,42,42,.25);
+}
+
+/* MAIN */
+.main { padding: 20px; }
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  color: #ff2a2a;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: #ff2a2a;
+}
+
+.rule {
+  width: 80%;
+  height: 1px;
+  margin: 20px auto;
+  background: rgba(255,42,42,.4);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  justify-items: center;
+}
+
+.card {
+  width: 160px;
+  height: 160px;
+  background: #0e0e14;
+  border-radius: 12px;
+  border: 2px solid rgba(255,42,42,.4);
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 14px;
+}
+
+.label {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-weight: bold;
+  color: #ff2a2a;
+}
+
+.badge {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #ff2a2a;
+  color: #000;
+}
+
+/* SPINNER */
+.spinner-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.85);
+  display: none;
+  place-items: center;
+  z-index: 100;
+}
+
+.spinner-box {
+  width: 700px;
+  height: 160px;
+  overflow: hidden;
+  border: 2px solid red;
+  position: relative;
+  background: #000;
+}
+
+.marker {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: red;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.reel {
+  display: flex;
+  height: 100%;
+  gap: 10px;
+  align-items: center;
+  padding: 0 30px;
+}
