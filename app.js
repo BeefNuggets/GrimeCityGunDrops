@@ -26,7 +26,7 @@ const ITEMS = [
   { tier:"t15", name:"PLR-16",  img:"assets/items/PLR-16.png" },
   { tier:"t15", name:"MPA",  img:"assets/items/MPA.png" },
   { tier:"t15", name:"Glock19x Switch",  img:"assets/items/Glock19xSwitch.png" },
-  { tier:"t15", name:"GlockP80 Switch",  img:"assets/items/Glock P80 Switch.png" },
+  { tier:"t15", name:"GlockP80 Switch",  img:"assets/items/Glock P90 Switch.png" },
   { tier:"t15",  name:"Glock17 Switch",  img:"assets/items/Glock17Switch.png" },
   { tier:"t15", name:"Glock P80",  img:"assets/items/Glock P80.png" },
   { tier:"t15", name:"ARP Clear Foam",  img:"assets/items/ARP Clear Foam.png" },
@@ -167,6 +167,7 @@ document.getElementById("spinBtn").onclick = () => {
 
 /* ---------- INIT ---------- */
 setTier("t1");
+
 
 
 
