@@ -20,7 +20,7 @@ const ITEMS = [
   { tier:"t1",  name:"Glock19",   img:"assets/items/Glock19.png" },
   { tier:"t1",  name:"M&P9",   img:"assets/items/M&P9.png" },
   { tier:"t1",  name:"Glock40",   img:"assets/items/Glock40.png" },
-  { tier:"t1",  name:"HiPoint",   img:"assets/items/HiPoint9mm.png" },
+  { tier:"t1",  name:"HiPoint",   img:"assets/items/HiPoint 9mm.png" },
  
   // T1.5
   { tier:"t15", name:"PLR-16",  img:"assets/items/PLR-16.png" },
@@ -167,5 +167,6 @@ document.getElementById("spinBtn").onclick = () => {
 
 /* ---------- INIT ---------- */
 setTier("t1");
+
 
 
