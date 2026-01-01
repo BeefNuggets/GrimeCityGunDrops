@@ -36,15 +36,6 @@ const ITEMS = [
   { tier:"t15", name:"Glock26EXT",  img:"assets/items/Glock26EXT.png" },
   { tier:"t15", name:"Glock26 Binary",  img:"assets/items/Glock26Binary.png" },
   { tier:"t15", name:"Mac-10",  img:"assets/items/Mac-10.png" },
-  { tier:"t15", name:"Glock17R",  img:"assets/items/Glock17R.png" },
-  { tier:"t15", name:"Glock19x",    img:"assets/items/Glock19x.png" },
-  { tier:"t15", name:"USP45",  img:"assets/items/USP45.png" },
-  { tier:"t15", name:"XD9",  img:"assets/items/XD9.png" },
-  { tier:"t15", name:"Glock17S",  img:"assets/items/Glock17S.png" },
-  { tier:"t15", name:"Glock19",  img:"assets/items/Glock19.png" },
-  { tier:"t15", name:"M&P9",  img:"assets/items/M&P9.png" },
-  { tier:"t15", name:"BerettaM9",  img:"assets/items/BarretaM9.png" },
-  { tier:"t15", name:"Glock40",  img:"assets/items/Glock40.png" },
 
   // T2
   { tier:"t2",  name:"ARP Drum",   img:"assets/items/DrumARP.png" },
@@ -176,4 +167,5 @@ document.getElementById("spinBtn").onclick = () => {
 
 /* ---------- INIT ---------- */
 setTier("t1");
+
 
