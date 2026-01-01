@@ -11,13 +11,30 @@ const REEL_PADDING = 30; // matches CSS .reel padding: 0 30px
 // Put YOUR items here (keep your image paths)
 const ITEMS = [
   // T1
+  { tier:"t1",  name:"Glock17EXT.",   img:"assets/items/Glock17Ext.png" },
+  { tier:"t1",  name:"Glock17MOS",   img:"assets/items/Glock17MOS.png" },
+  { tier:"t1",  name:"Glock19xBlack",   img:"assets/items/Glock19xBlack.png" },
   { tier:"t1",  name:"Glock17S", img:"assets/items/Glock17S.png" },
+  { tier:"t1",  name:"Glock17C",   img:"assets/items/Glock17C.png" },
+  { tier:"t1",  name:"Hellcat",   img:"assets/items/Hellcat.png" },
   { tier:"t1",  name:"Glock19",   img:"assets/items/Glock19.png" },
   { tier:"t1",  name:"M&P9",   img:"assets/items/M&P9.png" },
   { tier:"t1",  name:"Glock40",   img:"assets/items/Glock40.png" },
-  { tier:"t1",  name:"BerettaM9",   img:"assets/items/BarretaM9.png" },
+  { tier:"t1",  name:"HiPoint",   img:"assets/items/HiPoint9mm.png" },
  
   // T1.5
+  { tier:"t15", name:"PLR-16",  img:"assets/items/PLR-16.png" },
+  { tier:"t15", name:"MPA",  img:"assets/items/MPA.png" },
+  { tier:"t15", name:"Glock19x Switch",  img:"assets/items/Glock19xSwitch.png" },
+  { tier:"t15", name:"GlockP80 Switch",  img:"assets/items/Glock P80 Switch.png" },
+  { tier:"t15",  name:"Glock17 Switch",  img:"assets/items/Glock17Switch.png" },
+  { tier:"t15", name:"Glock P80",  img:"assets/items/Glock P80.png" },
+  { tier:"t15", name:"ARP Clear Foam",  img:"assets/items/ARP Clear Foam.png" },
+  { tier:"t15", name:"AR-15",  img:"assets/items/AR-15.png" },
+  { tier:"t15",  name:"DesertEagle",  img:"assets/items/DesertEagle.png" },
+  { tier:"t15", name:"Glock30EXT",  img:"assets/items/Glock30EXT.png" },
+  { tier:"t15", name:"Glock26EXT",  img:"assets/items/Glock26EXT.png" },
+  { tier:"t15", name:"Glock26 Binary",  img:"assets/items/Glock26Binary.png" },
   { tier:"t15", name:"Mac-10",  img:"assets/items/Mac-10.png" },
   { tier:"t15", name:"Glock17R",  img:"assets/items/Glock17R.png" },
   { tier:"t15", name:"Glock19x",    img:"assets/items/Glock19x.png" },
@@ -30,11 +47,16 @@ const ITEMS = [
   { tier:"t15", name:"Glock40",  img:"assets/items/Glock40.png" },
 
   // T2
+  { tier:"t2",  name:"ARP Drum",   img:"assets/items/DrumARP.png" },
+  { tier:"t2",  name:"300BLK",   img:"assets/items/300BLK.png" },
+  { tier:"t2",  name:"556Fully",   img:"assets/items/556Fully.png" },
+  { tier:"t2",  name:"762Fully",   img:"assets/items/762Fully.png" },
+  { tier:"t2",  name:"FullyAR-15",   img:"assets/items/FullyAR-15.png" },
+  { tier:"t2",  name:"FullyDraco",   img:"assets/items/FullyDraco.png" },
+  { tier:"t2",  name:"Glock30Switch",   img:"assets/items/Glock30Switch.png" },
+  { tier:"t2",  name:"Glock40Switch",   img:"assets/items/Glock40Switch.png" },
   { tier:"t2",  name:"Draco",   img:"assets/items/Draco.png" },
   { tier:"t2",  name:"MP5K",  img:"assets/items/MP5K.png" },
-  { tier:"t2",  name:"Glock17 Switch",  img:"assets/items/Glock17Switch.png" },
-  { tier:"t2",  name:"DesertEagle",  img:"assets/items/DesertEagle.png" },
-  { tier:"t2",  name:"Mac-10",  img:"assets/items/Mac-10.png" },
   { tier:"t2",  name:"12 Gauge",  img:"assets/items/12Gauge.png" },
 
 ];
@@ -154,3 +176,4 @@ document.getElementById("spinBtn").onclick = () => {
 
 /* ---------- INIT ---------- */
 setTier("t1");
+
